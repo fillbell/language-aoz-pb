@@ -60,6 +60,17 @@
     name: "string.quoted.double.aoz"
   }
   {
+    begin: "\'"
+    beginCaptures:
+      "0":
+        name: "punctuation.definition.string.begin.aoz"
+    end: "\\n"
+    endCaptures:
+      "0":
+        name: "punctuation.definition.string.end.aoz"
+    name: "string.quoted.double.aoz"
+  }  
+  {
     begin: "\//"
     beginCaptures:
       "0":
