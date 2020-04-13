@@ -69,7 +69,7 @@
       "0":
         name: "punctuation.definition.string.end.aoz"
     name: "string.quoted.double.aoz"
-  }  
+  }
   {
     begin: "\//"
     beginCaptures:
