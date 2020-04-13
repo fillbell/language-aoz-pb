@@ -12,6 +12,10 @@
     'name': 'string.quoted.aoz'
   }
   {
+    match: "-?\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f)?\\b"
+    name: "constant.numeric.aoz"
+  }  
+  {
     begin: "(#[a-zA-Z])"
     beginCaptures:
       "2":
@@ -73,7 +77,7 @@
     ]
   }
   {
-    match: "(?i:\\b(Amal|Home|Exit|Swap|Channel|Width|Height|Shared|Palette|Repeat|Paper|Inkey|Track|Init|Volume|LoadMaps|MapTile|MapView|GetTileValue|SetTileValue|Data|Size|Ref|Or|Procedure|End Proc|Int|Str|Bob Col|Lowres|Min|Max|Degree|Global|Dim|Hot Spot|Screen|Open|Hide|Show|Vbl|Add|Dec|Inc|Rnd|Abs|Timer|Cls|Curs|Off|On|Set|Transparent|Display|Paste|Bob|Set|Font|Ink|Pen|Text|Wait|Key|Reserve|Zone|Front|Back|Mouse|Click|Sam|Play|Stop|State|If|Then|Else|ElseIf|Else If|End If|While|Wend|For|To|Each|In|Return|Continue|Do|Until|Loop|Next|GoSub|GoTo|Step|Stop)\\b)"
+    match: "(?i:\\b(Get|Scale|Skew|Mod|Amal|Home|Exit|Swap|Channel|Width|Height|Shared|Palette|Repeat|Paper|Inkey|Track|Init|Volume|LoadMaps|MapTile|MapView|GetTileValue|SetTileValue|Data|Size|Ref|Or|Procedure|End Proc|Int|Str|Bob Col|Lowres|Min|Max|Degree|Global|Dim|Hot Spot|Screen|Open|Hide|Show|Vbl|Add|Dec|Inc|Rnd|Abs|Timer|Cls|Curs|Off|On|Set|Transparent|Display|Paste|Bob|Set|Font|Ink|Pen|Text|Wait|Key|Reserve|Zone|Front|Back|Mouse|Click|Sam|Play|Stop|State|If|Then|Else|ElseIf|Else If|End If|While|Wend|For|To|Each|In|Return|Continue|Do|Until|Loop|Next|GoSub|GoTo|Step|Stop)\\b)"
     name: "keyword.control.aoz"
   }
 ]
