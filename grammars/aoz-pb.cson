@@ -88,7 +88,11 @@
     ]
   }
   {
-    match: "(?i:\\b(Get|Scale|Skew|Mod|Amal|Home|Exit|Swap|Channel|Width|Height|Shared|Palette|Repeat|Paper|Inkey|Track|Init|Volume|LoadMaps|MapTile|MapView|GetTileValue|SetTileValue|Data|Size|Ref|Or|Procedure|End Proc|Int|Str|Bob Col|Lowres|Min|Max|Degree|Global|Dim|Hot Spot|Screen|Open|Hide|Show|Vbl|Add|Dec|Inc|Rnd|Abs|Timer|Cls|Curs|Off|On|Set|Transparent|Display|Paste|Bob|Set|Font|Ink|Pen|Text|Wait|Key|Reserve|Zone|Front|Back|Mouse|Click|Sam|Play|Stop|State|If|Then|Else|ElseIf|Else If|End If|While|Wend|For|To|Each|In|Return|Continue|Do|Until|Loop|Next|GoSub|GoTo|Step|Stop)\\b)"
+    match: "(?i:\\b(Procedure|End Proc|Return|Continue|Gosub|Goto|Get|Scale|Skew|Mod|Amal|Home|Exit|Swap|Channel|Width|Height|Shared|Palette|Repeat|Paper|Inkey|Track|Init|Volume|LoadMaps|MapTile|MapView|GetTileValue|SetTileValue|Data|Size|Ref|Or|Int|Str|Bob Col|Lowres|Min|Max|Degree|Global|Dim|Hot Spot|Screen|Open|Hide|Show|Vbl|Add|Dec|Inc|Rnd|Abs|Timer|Cls|Curs|Off|On|Set|Transparent|Display|Paste|Bob|Set|Font|Ink|Pen|Text|Wait|Key|Reserve|Zone|Front|Back|Mouse|Click|Sam|Play|Stop|State|Step|Stop)\\b)"
     name: "keyword.control.aoz"
+  }
+  {
+    match: "(?i:\\b(If|Then|Else|ElseIf|Else If|End If|While|Wend|For|To|Each|In|Do|Until|Loop|Next)\\b)"
+    name: "constant.language.aoz"
   }
 ]
