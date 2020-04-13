@@ -8,7 +8,50 @@
 ]
 'patterns': [
   {
-    'match': '^\\s*@@.*$'
-    'name': 'comment'
+    'match': '^\\s*//.*$'
+    'name': 'string.quoted.aoz'
+  }
+  {
+    begin: "(#[a-zA-Z])"
+    beginCaptures:
+      "2":
+        name: "punctuation.definition.string.begin.aoz"
+    end: "\:"
+    endCaptures:
+      "1":
+        name: "punctuation.definition.string.end.aoz"
+    name: "keyword.control.aoz"
+  }
+  {
+    begin: "\//"
+    beginCaptures:
+      "0":
+        name: "punctuation.definition.string.begin.aoz"
+    end: "\\n"
+    endCaptures:
+      "0":
+        name: "punctuation.definition.string.end.aoz"
+    name: "string.quoted.double.aoz"
+  }
+  {
+    begin: "\""
+    beginCaptures:
+      "0":
+        name: "punctuation.definition.string.begin.aoz"
+    end: "\""
+    endCaptures:
+      "0":
+        name: "punctuation.definition.string.end.aoz"
+    name: "string.quoted.double.aoz"
+    patterns: [
+      {
+        match: "\"\""
+        name: "constant.character.escape.apostrophe.aoz"
+      }
+    ]
+  }
+  {
+    match: "(?i:\\b(If|Then|Else|ElseIf|Else If|End If|While|Wend|For|To|Each|In|Return|Continue|Do|Until|Loop|Next|GoSub|GoTo|Step|Stop)\\b)"
+    name: "keyword.control.aoz"
   }
 ]

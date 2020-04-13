@@ -3,4 +3,4 @@
 
 '.source.aoz-pb':
   'editor':
-    'commentStart': '@@ '
+    'commentStart': '// '
