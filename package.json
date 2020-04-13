@@ -1,0 +1,14 @@
+{
+  "name": "language-aoz-pb",
+  "version": "0.0.0",
+  "description": "Language file for AOZ Studio",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/atom/language-aoz",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
