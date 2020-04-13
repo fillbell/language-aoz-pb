@@ -51,7 +51,7 @@
     ]
   }
   {
-    match: "(?i:\\b(If|Then|Else|ElseIf|Else If|End If|While|Wend|For|To|Each|In|Return|Continue|Do|Until|Loop|Next|GoSub|GoTo|Step|Stop)\\b)"
+    match: "(?i:\\b(Degree|Global|Dim|Hot Spot|Screen|Open|Hide|Show|Vbl|Add|Dec|Inc|Rnd|Abs|Timer|Cls|Curs|Off|On|Set|Transparent|Display|Paste|Bob|Set|Font|Ink|Pen|Text|Wait|Key|Reserve|Zone|Front|Back|Mouse|Click|Sam|Play|Stop|State|If|Then|Else|ElseIf|Else If|End If|While|Wend|For|To|Each|In|Return|Continue|Do|Until|Loop|Next|GoSub|GoTo|Step|Stop)\\b)"
     name: "keyword.control.aoz"
   }
 ]
