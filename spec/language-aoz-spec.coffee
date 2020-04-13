@@ -6,11 +6,11 @@ describe "Aoz grammar", ->
 
   beforeEach ->
     waitsForPromise ->
-      atom.packages.activatePackage("language-aoz")
+      atom.packages.activatePackage("language-aoz-pb")
 
     runs ->
-      grammar = atom.syntax.grammarForScopeName("source.aoz")
+      grammar = atom.syntax.grammarForScopeName("source.aoz-pb")
 
   it "parses the grammar", ->
     expect(grammar).toBeTruthy()
-    expect(grammar.scopeName).toBe "source.aoz"
+    expect(grammar.scopeName).toBe "source.aoz-pb"
