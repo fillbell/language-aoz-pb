@@ -4,6 +4,7 @@
   "description": "Language file for AOZ Studio",
   "keywords": [
     "language",
+    "aoz",
     "grammar"
   ],
   "repository": "https://github.com/atom/language-aoz",
