@@ -1,7 +1,7 @@
 {
   "name": "language-aoz-pb",
   "version": "0.6.0",
-  "description": "Language file for AOZ Studio",
+  "description": "Language Grammar Package for AOZ Studio",
   "keywords": [
     "language",
     "aoz",
