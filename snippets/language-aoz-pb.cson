@@ -1,4 +1,4 @@
 '.source.aoz-pb':
   'Print':
-    'prefix': 'pnt'
+    'prefix': '$'
     'body': 'Print'
