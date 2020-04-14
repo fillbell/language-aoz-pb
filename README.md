@@ -2,5 +2,6 @@
 
 Basic Language Grammer for AOZ Studio
 
-Snippet Contributors
+Snippet Contributors:
+
 WizardOz  (Discord)
