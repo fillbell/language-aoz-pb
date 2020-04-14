@@ -3,7 +3,7 @@
   'Print':
     'prefix': '$'
     'body': 'Print'
-  # Procedure
+ # Procedure
   'Procedure[]':
     'prefix': 'Pro'
     'body': """Procedure[$1]
@@ -25,4 +25,39 @@
     'body': """If $1
 
     End if
+    """
+  # Do
+  'Do...Loop':
+    'prefix': 'Do'
+    'body': """Do
+
+    Loop
+    """
+  # Repeat
+  'Repeat...Until':
+    'prefix': 'Repeat'
+    'body': """Repeat
+
+    Until $1
+    """
+  # While
+  'While...Wend':
+    'prefix': 'While'
+    'body': """While $1
+
+    Wend
+    """
+  # For Next
+  'For...next':
+    'prefix': 'For'
+    'body': """For $1 = $2 to $3
+
+    next $4
+    """
+  # For Next
+  'For...step..next':
+    'prefix': 'ForStep'
+    'body': """For $1 = $2 to $3 step $4
+
+    next $5
     """
