@@ -99,8 +99,12 @@
   }
   # Operators
   {
-	  match: "[\+|\-|\*|\/|\^|\<\>\=]|[Mm][Oo][Dd]|[Aa][Nn][Dd]|[Oo][Rr]|[Xx][Oo][Rr]|[Nn][Oo][Tt]"
-	  name: "keyword.operator.aoz"
+    match: "!|\\$|%|&|\\*|\\-\\-|\\-|\\+\\+|\\+|~|===|==|=|!=|!==|<=|>=|<<=|>>=|>>>=|<>|<|>|!|&&|\\|\\||\\?\\:|\\*=|/=|%=|\\+=|\\-=|&=|\\^=\\b"
+    name: "keyword.operator.js"
+  }
+  {
+    match: "(?i:\\b(Mod|And|Not|Or|Xor|As|AndAlso|IsNot|Of|OrElse)\\b)"
+    name: "keyword.operator.js"
   }
   # Language
   {
