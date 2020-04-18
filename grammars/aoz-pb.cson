@@ -14,11 +14,6 @@
 	 match: "[%]([0|1])+"
 	 name: "constant.numeric.binary.aoz"
   }
-  # Decimal numeric constants
-  {
-    match: "-?\\b(([\$]([0-9A-Fa-f])+)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f)?\\b"
-    name: "constant.numeric.decimal.aoz"
-  }
   # Tags
   {
     begin: "(#[a-zA-Z])"
@@ -96,6 +91,16 @@
         name: "constant.character.escape.apostrophe.aoz"
       }
     ]
+  }
+  # Decimal numeric constants
+  {
+    match: "-?\\b((([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f)?\\b"
+    name: "constant.numeric.decimal.aoz"
+  }
+  # Hex values
+  {
+    match: "([\\$][0-9A-Fa-f]+)"
+    name: "constant.numeric.decimal.aoz"
   }
   # Operators
   {
