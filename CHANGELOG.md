@@ -8,3 +8,5 @@ Updated to include contributions from ising4jesus (Discord)
 Fixed the Operators
 ## 0.28.0
 Fixed the hex values 
+## 0.29.0
+Added additional language keywords from ising4jesus (Discord)
