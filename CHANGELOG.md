@@ -10,3 +10,5 @@ Fixed the Operators
 Fixed the hex values 
 ## 0.29.0
 Added additional language keywords from ising4jesus (Discord)
+## 0.30.0
+Added additional language keywords from ising4jesus (Discord)
