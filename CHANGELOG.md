@@ -14,3 +14,5 @@ Added additional language keywords from ising4jesus (Discord)
 Added additional language keywords from ising4jesus (Discord)
 ## 0.31.0
 Added additional language keywords from ising4jesus (Discord)
+## 0.32.0
+Added PI# constant
