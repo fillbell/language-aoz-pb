@@ -26,5 +26,5 @@ Added "?" snippet for "Print" - Neil Ives (Discord)
 Fixed Print Snippet
 ## 1.0.0
 Added complete list of AOZ Instructions - Phil Bell
-## 1.1.0
+## 2.1.0
 Fixed some language matches
