@@ -22,3 +22,5 @@ Added additional language keywords
 Added javascript pattern detection as suggested by ising4jesus (Discord)
 ## 0.35.0
 Added "?" snippet for "Print" - Neil Ives (Discord)
+## 0.36.0
+Fixed Print Snippet

@@ -1,10 +1,10 @@
 '.source.aoz-pb':
   # Print $
-  'Print':
+  'Print$':
     'prefix': '$'
     'body': 'Print'
   # Print ?
-  'Print':
+  'Print?':
     'prefix': '?'
     'body': 'Print'
  # Procedure
