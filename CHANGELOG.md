@@ -28,3 +28,5 @@ Fixed Print Snippet
 Added complete list of AOZ Instructions - Phil Bell
 ## 2.1.0
 Fixed some language matches
+## 2.2.0
+Added missing instructions
