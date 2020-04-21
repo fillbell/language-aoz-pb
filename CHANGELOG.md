@@ -18,3 +18,5 @@ Added additional language keywords from ising4jesus (Discord)
 Added PI# constant
 ## 0.33.0
 Added additional language keywords
+## 0.34.0
+Added javascript pattern detection as suggested by ising4jesus (Discord)

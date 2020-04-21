@@ -5,6 +5,22 @@
   'aoz'
 ]
 'patterns': [
+  # Javascript
+  {
+    'begin': '{'
+    'beginCaptures':
+      '0':
+        'name': 'meta.brace.curly.js'
+    'end': '}'
+    'endCaptures':
+      '0':
+        'name': 'meta.brace.curly.js'
+    'patterns': [
+      {
+        'include': 'source.js'
+      }
+    ]
+  }
   {
     'match': '^\\s*//.*$'
     'name': 'comment.line.aoz'
