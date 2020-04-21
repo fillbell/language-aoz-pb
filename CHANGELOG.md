@@ -24,3 +24,5 @@ Added javascript pattern detection as suggested by ising4jesus (Discord)
 Added "?" snippet for "Print" - Neil Ives (Discord)
 ## 0.36.0
 Fixed Print Snippet
+## 1.0.0
+Added complete list of AOZ Instructions - Phil Bell
