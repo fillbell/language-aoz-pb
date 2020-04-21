@@ -20,3 +20,5 @@ Added PI# constant
 Added additional language keywords
 ## 0.34.0
 Added javascript pattern detection as suggested by ising4jesus (Discord)
+## 0.35.0
+Added "?" snippet for "Print" - Neil Ives (Discord)
