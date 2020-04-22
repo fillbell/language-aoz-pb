@@ -30,3 +30,5 @@ Added complete list of AOZ Instructions - Phil Bell
 Fixed some language matches
 ## 2.2.0
 Added missing instructions
+## 2.3.0
+Added 'Instruction' to language
