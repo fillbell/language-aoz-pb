@@ -32,3 +32,5 @@ Fixed some language matches
 Added missing instructions
 ## 2.3.0
 Added 'Instruction' to language
+## 2.3.0
+Added 'Screen Open' to language
