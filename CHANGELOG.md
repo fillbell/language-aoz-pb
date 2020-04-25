@@ -36,3 +36,5 @@ Added 'Instruction' to language
 Added 'Screen Open' to language
 ## 2.4.0
 Updated language keywords to handle keywords with '$'
+## 2.5.0
+Removed $ from operator scope
