@@ -40,3 +40,5 @@ Updated language keywords to handle keywords with '$'
 Removed $ from operator scope
 ## 2.5.0
 Updated language and fixed PI#
+## 2.6.0
+Added Load Image to language
