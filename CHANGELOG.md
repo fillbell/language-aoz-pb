@@ -38,3 +38,5 @@ Added 'Screen Open' to language
 Updated language keywords to handle keywords with '$'
 ## 2.5.0
 Removed $ from operator scope
+## 2.5.0
+Updated language and fixed PI#
