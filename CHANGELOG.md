@@ -34,3 +34,5 @@ Added missing instructions
 Added 'Instruction' to language
 ## 2.3.0
 Added 'Screen Open' to language
+## 2.4.0
+Updated language keywords to handle keywords with '$'
