@@ -1,8 +1,10 @@
 '.source.aoz-pb':
-  # Print $
-  'Print$':
-    'prefix': '$'
-    'body': 'Print'
+  # Uncomment for Print $
+
+  #'Print$':
+  #  'prefix': '$'
+  #  'body': 'Print'
+
   # Print ?
   'Print?':
     'prefix': '?'

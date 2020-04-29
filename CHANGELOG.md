@@ -42,3 +42,5 @@ Removed $ from operator scope
 Updated language and fixed PI#
 ## 2.6.0
 Added Load Image to language
+## 2.7.0
+Commented out the snippet for $ Print as this was causing a conflict with the AOZ Language autocomplete
