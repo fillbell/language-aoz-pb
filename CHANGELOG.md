@@ -44,3 +44,5 @@ Updated language and fixed PI#
 Added Load Image to language
 ## 2.7.0
 Commented out the snippet for $ Print as this was causing a conflict with the AOZ Language autocomplete
+## 2.8.0
+Added IsSprite
