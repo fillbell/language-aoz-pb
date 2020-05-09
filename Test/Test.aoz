@@ -1,17 +1,12 @@
 
 
+for i = 0 to 10
 
-Screen Open
-##Testing
-IsSprite
-
-
-Bob Update Off
-Bob Update Off
+next
 
 
-Screen Open
-Bob Off
-Goto
+next
 
 Goto
+
+Gosub

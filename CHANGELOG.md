@@ -54,3 +54,5 @@ Fixed incorrect instruction name
 Sorted the instruction list
 ## 2.12.0
 Rolled back
+## 2.12.0
+Fixed all highlighting
