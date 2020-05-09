@@ -52,3 +52,5 @@ Updated all instructions using the AOZ Studio generated documentation
 Fixed incorrect instruction name
 ## 2.11.0
 Sorted the instruction list
+## 2.12.0
+Rolled back
