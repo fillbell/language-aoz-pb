@@ -50,3 +50,5 @@ Added IsSprite
 Updated all instructions using the AOZ Studio generated documentation
 ## 2.10.0
 Fixed incorrect instruction name
+## 2.11.0
+Sorted the instruction list
