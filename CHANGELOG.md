@@ -48,3 +48,5 @@ Commented out the snippet for $ Print as this was causing a conflict with the AO
 Added IsSprite
 ## 2.9.0
 Updated all instructions using the AOZ Studio generated documentation
+## 2.10.0
+Fixed incorrect instruction name
